@@ -21,15 +21,32 @@
         }
         .full-height {
             height: 100%;
+
+            &:nth-child(1) {
+                height: 5%;
+            }
         }
+        /*.full-height:nth-child(1) {
+            height: 5%;
+        }*/
     </style>
 </head>
 <body>
 <table>
     <tr class="full-height">
+        <td colspan="3">Header</td>
+        <!--<td>Контент 2</td>
+        <td>Контент 3</td>-->
+    </tr>
+    <tr class="full-height">
         <td>Контент 1</td>
         <td>Контент 2</td>
         <td>Контент 3</td>
+    </tr>
+    <tr class="full-height">
+        <td colspan="3">Footer</td>
+        <!--<td>Контент 2</td>
+        <td>Контент 3</td>-->
     </tr>
 </table>
 </body>
