@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    /*font: "Arial", sans-serif;*/
+    font-family: "Arial, sans-serif";
+}
+table {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 20px;
+    vertical-align: top;
+}
+.full-height {
+    height: 100%;
+
+    &:nth-child(1) {
+        height: 5%;
+    }
+}
